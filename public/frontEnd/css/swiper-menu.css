@@ -41,9 +41,9 @@
 .nav-icon {
   width: 30px;
   height: 30px;
-  position: fixed;
-  top: 85px;
-  right: 20px;
+  position: absolute;
+ right: 20px;
+margin-top: 8px;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);
@@ -213,7 +213,7 @@
   font-family: 'Ropa Sans', sans-serif;
   height: 100vh;
   position: absolute;
-  top: 127px;
+  top: 50px;
   transition: .4s;
   padding: 0;
   box-sizing: border-box;
