@@ -5,16 +5,36 @@ body {
     overflow-x: hidden;
     background-color: #ecf7fd;
 }
-p{
-	text-align: left;
-	color: #222;
+
+
+/* Swiper css start */
+
+.swiper {
+  width: 100%;
+  height: max-content;
 }
+
+.swiper-slide {
+ 
+  font-size: 18px;
+  background: transparent;
+ 
+}
+
+
+
 /*===COMMON CSS===*/
 button,
 button:focus {
     outline: 0;
 }
+p{
+	text-align: left;
+	color: #222;
 
+
+  
+}
 ul,
 ol {
     margin: 0;
@@ -244,16 +264,21 @@ section.main-section {
 }
 
 /*Heade Top End*/
+/* header start */
 .main-nav {
   background: #e7f6ff;
+  position: sticky;
+  top: 0px;
+  z-index: 9999;
 }
-.main-logo a img{
- width: 100%;
- height: 100%;
+
+.main-menu{
+  background-color:#e7f6ff ;
 }
 
-
-
+#close{
+  display: none;
+}
 
 
 
@@ -315,6 +340,12 @@ section.main-section {
 .sub-menu li a:hover {
   color: #2c6891;
 }
+
+/* header end */
+
+
+/* search start */
+
 .search-area {
     background: #edf6fd;
 }
@@ -352,6 +383,10 @@ section.main-section {
 .search i {
   color:#fff;
 }
+
+/* search end */
+/* training start */
+
 .training {
   background: #6274e7;
   padding: 10px 14px !important;
@@ -367,18 +402,21 @@ section.main-section {
   text-align: center;
   background: #fff;
 }
-.mobile-menu {
-  display: none;
-}
+/* training end */
+
 #sticker-sticky-wrapper {
   z-index: 999;
   position: relative;
 }
+
+
 /*========= Slider Top Css ==========*/
+
+/* slider start */
 .slider-area {
     background: rgb(2,0,36);
     background: linear-gradient(90deg, #6274e7 , #8752a3 );
-    padding: 100px 0;
+   
 }
 .mobile-show{
     display:none;
@@ -773,7 +811,7 @@ section.main-section {
 /*=========our package start==========*/
 .section-title {
   text-align: center;
-  padding: 0 250px;
+ 
   margin-bottom: 40px;
 }
 .section-title h3 {
@@ -812,6 +850,17 @@ section.main-section {
   text-align: center;
   color: #fff;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 .single-package .image.business{
   background: linear-gradient(135deg, #028cf3 1%,#bb21f8 100%);
@@ -1056,7 +1105,6 @@ section.main-section {
 .client-feedback-inner .content p {
   margin-bottom: 15px;
   margin-top: 21px;
-  display: inline-block;
 }
 .client_item {
     height: 125px;
@@ -1128,6 +1176,9 @@ section.main-section {
   background: linear-gradient(135deg, #8752a3 1%,#9491e2 100%);
   padding: 20px;
   position: relative;
+  overflow: hidden;
+  height: 300px;
+  
 }
 .testimonials .owl-nav {
   background: transparent !important;

@@ -13,27 +13,22 @@
     <meta name="og:title" property="og:title" content="Websolution IT"> 
     <meta name="robots" content="index, follow"> 
     <!--======css start========-->
+    <!-- swiper js css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<!-- font awsam icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" type="public/frontEnd/image/png" sizes="96x96" href="public/frontEnd/images/logo.png">
     <!-- fabeicon css -->
     <link rel="stylesheet" href="public/frontEnd/css/bootstrap.min.css">
      <!-- bootstrap css -->
-    <link rel="stylesheet" href="public/frontEnd/css/font-awesome.min.css">
-     <!-- bootstrap css -->
-    <link rel="stylesheet" href="public/frontEnd/css/swiper-menu.css">
-     <!-- Swiper Menu css -->
-    <link rel="stylesheet" href="public/frontEnd/css/meanmenu.css">
-     <!-- meanmenu css -->
+   
     <link rel="stylesheet" href="public/frontEnd/css/animate.css">
      <!-- bootstrap css -->
-    <link rel="stylesheet" href="public/frontEnd/css/owl.theme.default.css">
-    <!-- owl carousel -->
-    <link rel="stylesheet" href="public/frontEnd/css/owl.carousel.min.css">
-    <!-- owl carousel -->
+  
     <link rel="stylesheet" href="public/frontEnd/css/style.css">
     <link rel="stylesheet" href="public/frontEnd/css/responsive.css">
     <!-- style css -->
-    <script src="public/frontEnd/js/jquery-3.4.1.min.js"></script>
-    <script charset="UTF-8" src="public/frontEnd/js/push.js" async="" ></script>
+  
     <!-- bootstrap js -->
     <!--======css end========-->
     
@@ -44,93 +39,57 @@
   <header class="header-area gotop">
       <!-- Start Top Header -->
       <div class="top-header">
-          <div class="container">
+          <div class="container py-2">
               <div class="row align-items-center">
-                  <div class="col-lg-3 col-md-3 col-sm-12">
-                      <div class="hotline">
-                          <p>
-                              <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
-                              hotline:<span><a href="tel:+8801766950986">+88 096 3895 6765</a></span>
-                          </p>
-                         
-                      </div>
-                  </div>
-                  <!-- Column End -->
-                  <div class="col-lg-6 col-md-6 col-sm-12">
-                      <div class="highlights">
+              
+                  
+                 
+                      <div class="highlights col-12">
                           <p>
                               <marquee behavior="scroll" direction="" onmouseover="stop()" onmouseout="start()" scrollamount="4"><a href="https://ecom.websolutionit.com/">Offers :: Ecommerce Solution A-Z With Laravel <del>20000/-</del> 15000/-</a> <span class="text-white">
 
  </span></marquee>
                           </p>
-                      </div>
+                     
                   </div>
-                   <!-- Column End -->
-                   <div class="col-lg-3 col-md-3 col-sm-12">
-                       <div class="affliate-area">
-                           <a href="#">Affiliate</a>
-                           <a href="#" class="affliate">contact</a>
-                       </div>
-                   </div>
-                   <!-- Column End -->
+                
               </div>
           </div>
       </div>
       <!-- End Top Header -->
-      <div class="main-nav" id="sticker">
+      <div class="main-nav">
           <div class="container">
-              <div class="row">
-                <div class="col-lg-3 col-md-3 col-sm-12 d-flex align-items-center justify-contaten-center">
-                      <div class="main-logo">
+              <div class="row py-2">
+                <div class="col-md-3 col-sm-5 col-5 d-flex align-items-center justify-contaten-center">
+                     
                           <a href="#">
                                                         <img src="public//frontEnd/images/logo.png" alt="Rangcon Logo">
                                                       </a>
-                      </div>
+                    
                   </div>
-                  <div class="col-sm-9">
-                      <div class="main-menu">
+                  <div class="col-sm-7 col-7 col-md-9 d-block d-md-none  d-flex align-items-center justify-content-end"> 
+                    <button id="open"> <i class="fa-solid fa-bars"></i></button>
+                    <button id="close"> <i class="fa-solid fa-xmark"></i></button>
+
+                  </div>
+                  <div id="menu" class="col-sm-12 col-12 col-lg-9 col-md-9 d-none d-md-block ">
+                      <div id="mainMenu" class="main-menu">
                           <ul>
                               <li class="active"><a href="#">home</a></li>
-                              <li><a class="anchor">About Us<i class="fa fa-caret-down"></i></a>
-                                <ul class="sub-menu service-cat">
-                                  <li><a href="#">about company</a></li>
-                                  <li><a href="#">Contact us</a></li>
-                                  <li><a href="#">our client</a></li>
-                                  <li><a href="#" target="_blank">our training</a></li>
-                                </ul>
+
+                            
+
+                              <li><a href="#">Our Services</a>
+                               
                               </li>
-                              <li><a href="#">Our Services<i class="fa fa-caret-down"></i></a>
-                                <ul class="sub-menu service-cat">
-                                                                    <li><a href="#">Website Design And Development</a></li>
-                                                                    <li><a href="#">Ecommerce Solution</a></li>
-                                                                    <li><a href="#">Web Application Development</a></li>
-                                                                    <li><a href="#">Graphic Design</a></li>
-                                                                    <li><a href="#">Point Of Sales</a></li>
-                                                                    <li><a href="#">Professional IT Tranning</a></li>
-                                                                  </ul>
-                              </li>
-                              <li><a href="#">Our Works<i class="fa fa-caret-down"></i></a>
-                                <ul class="sub-menu service-cat">
-                                                                    <li><a href="#">Ecommerce Website</a></li>
-                                                                    <li><a href="#">Business Website</a></li>
-                                                                    <li><a href="#">News Paper</a></li>
-                                                                    <li><a href="#">Coaching Management</a></li>
-                                                                    <li><a href="#">Point Of Sales</a></li>
-                                                                  </ul>
-                              </li>
-                              <li><a href="#">packages<i class="fa fa-caret-down"></i></a>
-                                <ul class="sub-menu service-cat">
-                                                                    <li><a href="#">Business Website</a></li>
-                                                                    <li><a href="#">Ecommerce Website</a></li>
-                                                                    <li><a href="#">Newspaper</a></li>
-                                                                    <li><a href="#">Ads Classified</a></li>
-                                                                    <li><a href="#">Courier Management</a></li>
-                                                                    <li><a href="#">Post Of Sale</a></li>
-                                                                  </ul>
+                              <li><a href="#">Our Team</a>
+                               
+                              <li><a href="#">our Hosting</a>
+
                               </li>
                                <li><a href="#">Our Blog</a></li>
-                               <li><a href="#">FaQ</a></li>
-                               <li><a href="#" target="_blank" class="training">Our Training</a></li>
+                              
+                               <li><a href="#" target="_blank" class="training">Get in Touch</a></li>
 
                           </ul>
                       </div>
@@ -139,215 +98,121 @@
               </div>
           </div>
       </div>
-      
   </header>
   <!-- End Header Area -->
-  <section class="mobile-menu ">
-        <div class="swipe-menu default-theme">
-          <div class="top-header mobile-top">
-          <div class="container">
-              <div class="row align-items-center">
-                  <div class="col-lg-3 col-md-3 col-sm-7 col-7">
-                      <div class="hotline">
-                          <p>
-                              <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
-                              <span class="d-none">hotline:</span><span><a href="tel:01766950986">+88 096 3895 6765</a></span>
-                          </p>
-                         
-                      </div>
-                  </div>
-                   <!-- Column End -->
-                   <div class="col-lg-3 col-md-3 col-sm-5 col-5">
-                       <div class="affliate-area">
-                           <a href="">contact</a>
-                           <a href="" target="_blank" class="affliate">Training</a>
-                       </div>
-                   </div>
-                   <!-- Column End -->
-              </div>
-          </div>
-      </div>
-             <div class="col-12 position-relative  d-flex align-items-center justify-contaten-center bg-light py-3">  
-      <div class="nav-icon">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <nav class="codehim-nav col-6">
-                <ul class="menu-item">
-                    <li><a href="#" class="active">Home</a></li>
-                    <li class="has-sub ">
-                          <span class="dropdown-heading">About Us</span> 
-                          <ul>
-                             <li><a href="#">About Company</a></li>
-                              <li><a href="#">Contact</a></li>
-                              <li><a href="#">Our Client</a></li>
-                              <li><a href="#" target="_blank">Our Training</a></li>
-                          </ul>
-                    </li>
-                    <li class="has-sub ">
-                          <span class="dropdown-heading">Our Services</span> 
-                          <ul>
-                                                              <li><a href="#">Website Design And Development</a></li>
-                                                              <li><a href="#">Ecommerce Solution</a></li>
-                                                              <li><a href="#">Web Application Development</a></li>
-                                                              <li><a href="#">Graphic Design</a></li>
-                                                              <li><a href="#">Point Of Sales</a></li>
-                                                              <li><a href="#">Professional IT Tranning</a></li>
-                                                        </ul>
-                    </li>
-                    <li class="has-sub ">
-                      <span class="dropdown-heading">Our Work</span>
-                      <ul>
-                                                     <li><a href="#">Ecommerce Website</a></li>
-                                                      <li><a href="#">Business Website</a></li>
-                                                      <li><a href="#">News Paper</a></li>
-                                                      <li><a href="#">Coaching Management</a></li>
-                                                      <li><a href="#">Point Of Sales</a></li>
-                                                </ul>
-                    </li>
-                    <li class="has-sub ">
-                          <span class="dropdown-heading">Packages</span> 
-                          <ul>
-                                                             <li><a href="#">Business Website</a></li>
-                                                             <li><a href="#">Ecommerce Website</a></li>
-                                                             <li><a href="#">Newspaper</a></li>
-                                                             <li><a href="#">Ads Classified</a></li>
-                                                             <li><a href="#">Courier Management</a></li>
-                                                             <li><a href="#">Post Of Sale</a></li>
-                                                       </ul>
-                    </li>
-                    <li><a href="#" class="active">Our Blog</a></li>
-                    <li><a href="#" class="active">FaQ</a></li>
-                    <li><a href="#" target="_blank" class="active">Our Training</a></li>
-                    
-                 </ul>
-             </nav>
-
-          <div class="mobile-logo col-6 p-0 m-0 ">
-            <a href="#">
-              <img class="img-fluid" src="public/frontEnd/images/logo.png" alt="">
-            </a>
-          </div>
-        </div>
-        </div>
-    </section>
-   <section class="slider-area">
-      <div class="container">
+ <!-- Slider Area Start-->
+   <section class="slider-area container-fluid">
+      <div class="container p-4">
           <div class="row">
-              <div class="col-sm-12">
-                  <div class="main-slider owl-carousel">
-                                           <div class="slide">
-                          <div class="row">
-                              <div class="col-sm-6 desktop-show">
-                                  <div class="slide-text">
-                                      <h2 class="animated fadeInDown">best website design and development</h2>
-                                      <p class="animated fadeInUp">We build best website design and development. We are build your website totally row coding and high class.</p>
-                                      <a href="#" class="animated fadeInUp">View Details</a>
-                                  </div>
-                              </div>
-                              <div class="col-sm-6">
-                                 <div class="slide-image">
-                                     <img src="public/uploads/slider/web-design-development.png" alt="best website design and development">
-                                 </div>
-                              </div>
+              
+                 
 
-                              <div class="col-sm-6 mobile-show">
-                                  <div class="slide-text">
-                                      <h2 class="animated fadeInDown">best website design and development</h2>
-                                      <a href="#" class="animated fadeInUp">View Details</a>
-                                  </div>
-                              </div>
-                              
-                          </div>
-                      </div>
-                      <!-- slide End -->
-                                            <div class="slide">
-                          <div class="row">
-                              <div class="col-sm-6 desktop-show">
-                                  <div class="slide-text">
-                                      <h2 class="animated fadeInDown">Web Application and Software Development</h2>
-                                      <p class="animated fadeInUp">Best Web Application and Software Development In Bangladesh. We build POS, Accounting &amp; Inventory, HR/Payroll, School Management.</p>
-                                      <a href="#" class="animated fadeInUp">View Details</a>
-                                  </div>
-                              </div>
-                              <div class="col-sm-6">
-                                 <div class="slide-image">
-                                     <img src="public/uploads/slider/web-application.png" alt="Web Application">
-                                 </div>
-                              </div>
+                    <div class="swiper mySwiper">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          
+                          <div class="row flex-column-reverse flex-sm-column-reverse flex-md-row ">
+                            <div class="col-sm-12  col-12 col-md-6">
+                                <div class="slide-text">
+                                    <h2 class="animated fadeInDown">best website design and development</h2>
+                                    <p class="animated fadeInUp">We build best website design and development. We are build your website totally row coding and high class.</p>
+                                    <a href="#" class="animated fadeInUp">View Details</a>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-12 col-md-6 text-center">
+                               
+                                   <img class="img-fluid" src="public/uploads/slider/web-design-development.png" alt="best website design and development">
+                               
+                            </div>
 
-                              <div class="col-sm-6 mobile-show">
-                                  <div class="slide-text">
-                                      <h2 class="animated fadeInDown">Web Application and Software Development</h2>
-                                      <a href="#" class="animated fadeInUp">View Details</a>
-                                  </div>
-                              </div>
-                              
-                          </div>
-                      </div>
-                      <!-- slide End -->
-                                            <div class="slide">
-                          <div class="row">
-                              <div class="col-sm-6 desktop-show">
-                                  <div class="slide-text">
-                                      <h2 class="animated fadeInDown">Ghaphic Design With Creative</h2>
-                                      <p class="animated fadeInUp">We Provide Good quality graphic design service. Logo Design, Banner Design, Business Card, Brochure Design, Clipping Path etc.<br></p>
-                                      <a href="#" class="animated fadeInUp">Contact Us</a>
-                                  </div>
-                              </div>
-                              <div class="col-sm-6">
-                                 <div class="slide-image">
-                                     <img src="public/uploads/slider/graphic-design.png" alt="Graphic Design">
-                                 </div>
-                              </div>
+                          
+                            
+                        </div>
 
-                              <div class="col-sm-6 mobile-show">
-                                  <div class="slide-text">
-                                      <h2 class="animated fadeInDown">Ghaphic Design With Creative</h2>
-                                      <a href="#" class="animated fadeInUp">Contact Us</a>
-                                  </div>
-                              </div>
-                              
-                          </div>
-                      </div>
-                      <!-- slide End -->
-                                            <div class="slide">
-                          <div class="row">
-                              <div class="col-sm-6 desktop-show">
-                                  <div class="slide-text">
-                                      <h2 class="animated fadeInDown">Domain and hosting service provider</h2>
-                                      <p class="animated fadeInUp">We also provide domain and hosting . We sell all kind of domain.,Like .com, .net, .org, .xyz, .com.bd etc domain and secure lightspeed server.</p>
-                                      <a href="#" class="animated fadeInUp">View Details</a>
-                                  </div>
-                              </div>
-                              <div class="col-sm-6">
-                                 <div class="slide-image">
-                                     <img src="public/uploads/slider/domin-hosting.png" alt="Domain hosting">
-                                 </div>
-                              </div>
 
-                              <div class="col-sm-6 mobile-show">
-                                  <div class="slide-text">
-                                      <h2 class="animated fadeInDown">Domain and hosting service provider</h2>
-                                      <a href="#" class="animated fadeInUp">View Details</a>
-                                  </div>
-                              </div>
+                        </div>
+                        <div class="swiper-slide">
+                          
+                          <div class="row flex-column-reverse flex-sm-column-reverse flex-md-row ">
+                            <div class="col-sm-12 col-12 col-md-6">
+                                <div class="slide-text">
+                                    <h2 class="animated fadeInDown">Web Application and Software Development</h2>
+                                    <p class="animated fadeInUp">Best Web Application and Software Development In Bangladesh. We build POS, Accounting &amp; Inventory, HR/Payroll, School Management.</p>
+                                    <a href="#" class="animated fadeInUp">View Details</a>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-12 col-md-6 text-center">
+                               
+                                   <img class="img-fluid" src="public/uploads/slider/web-application.png" alt="Web Application">
+                               
+                            </div>
+
+                            
+                            </div>
+
+
+                        </div>
+                        <div class="swiper-slide">
+
+                          <div class="row flex-column-reverse flex-sm-column-reverse flex-md-row">
+                            <div class="col-sm-12 col-12 col-md-6" >
+                                <div class="slide-text">
+                                    <h2 class="animated fadeInDown">Ghaphic Design With Creative</h2>
+                                    <p class="animated fadeInUp">We Provide Good quality graphic design service. Logo Design, Banner Design, Business Card, Brochure Design, Clipping Path etc.<br></p>
+                                    <a href="#" class="animated fadeInUp">Contact Us</a>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-12 col-md-6 text-center">
                               
-                          </div>
+                                   <img class="img-fluid" src="public/uploads/slider/graphic-design.png" alt="Graphic Design">
+                               
+                            </div>
+
+                          
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+
+                   
+                          <div class="row flex-column-reverse flex-sm-column-reverse flex-md-row">
+                            <div class="col-sm-12 col-12 col-md-6 ">
+                                <div class="slide-text">
+                                    <h2 class="animated fadeInDown">Domain and hosting service provider</h2>
+                                    <p class="animated fadeInUp">We also provide domain and hosting . We sell all kind of domain.,Like .com, .net, .org, .xyz, .com.bd etc domain and secure lightspeed server.</p>
+                                    <a href="#" class="animated fadeInUp">View Details</a>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-12 col-md-6 text-center">
+                               
+                                   <img class="img-fluid" src="public/uploads/slider/domin-hosting.png" alt="Domain hosting">
+                               
+                            </div>
+
+                            
+                            
+                        </div>
+
+                        </div>
+
+                       
                       </div>
-                      <!-- slide End -->
-                                        </div>
-              </div>
+                  
+                    </div>
+                     
+                          
+                     
+                     
+              
           </div>
       </div>
   </section>
- <!-- slider section end -->
+ <!-- slider Area end -->
  
- 
+ <!-- demo section start -->
   <section class="work-section">
      <div class="container">
          <div class="row">
+          <!-- top tiatle start -->
              <div class="col-sm-12">
                  <div class="cat-title">
                      <ul>
@@ -356,8 +221,8 @@
                      </ul>
                  </div>
              </div>
-                          
-                          <div class="col-sm-3">
+                          <!-- top titale end -->
+              <div class="col-sm-3">
                  <div class="single-work">
                      <div class="work-img">
                          <a href="#">
@@ -374,7 +239,8 @@
                      </div>
                  </div>
              </div>
-                         <div class="col-sm-3">
+
+                <div class="col-sm-3">
                  <div class="single-work">
                      <div class="work-img">
                          <a href="#">
@@ -391,7 +257,8 @@
                      </div>
                  </div>
              </div>
-                         <div class="col-sm-3">
+
+                <div class="col-sm-3">
                  <div class="single-work">
                      <div class="work-img">
                          <a href="#">
@@ -408,7 +275,8 @@
                      </div>
                  </div>
              </div>
-                         <div class="col-sm-3">
+
+              <div class="col-sm-3">
                  <div class="single-work">
                      <div class="work-img">
                          <a href="#">
@@ -425,7 +293,7 @@
                      </div>
                  </div>
              </div>
-                         <div class="col-sm-3">
+                <div class="col-sm-3">
                  <div class="single-work">
                      <div class="work-img">
                          <a href="#">
@@ -442,7 +310,7 @@
                      </div>
                  </div>
              </div>
-                         <div class="col-sm-3">
+             <div class="col-sm-3">
                  <div class="single-work">
                      <div class="work-img">
                          <a href="#">
@@ -459,7 +327,7 @@
                      </div>
                  </div>
              </div>
-                         <div class="col-sm-3">
+              <div class="col-sm-3">
                  <div class="single-work">
                      <div class="work-img">
                          <a href="#">
@@ -476,7 +344,7 @@
                      </div>
                  </div>
              </div>
-                         <div class="col-sm-3">
+              <div class="col-sm-3">
                  <div class="single-work">
                      <div class="work-img">
                          <a href="#">
@@ -493,7 +361,7 @@
                      </div>
                  </div>
              </div>
-                         <div class="col-sm-3">
+                <div class="col-sm-3">
                  <div class="single-work">
                      <div class="work-img">
                          <a href="#">
@@ -510,7 +378,7 @@
                      </div>
                  </div>
              </div>
-                         <div class="col-sm-3">
+              <div class="col-sm-3">
                  <div class="single-work">
                      <div class="work-img">
                          <a href="#">
@@ -527,7 +395,7 @@
                      </div>
                  </div>
              </div>
-                         <div class="col-sm-3">
+                <div class="col-sm-3">
                  <div class="single-work">
                      <div class="work-img">
                          <a href="#">
@@ -544,7 +412,7 @@
                      </div>
                  </div>
              </div>
-                         <div class="col-sm-3">
+              <div class="col-sm-3">
                  <div class="single-work">
                      <div class="work-img">
                          <a href="#">
@@ -566,9 +434,12 @@
      
  </section>
   <!-- Demo Section End -->
+
+
+<!-- about seection start -->
  <section class="about-bg section-padding">
    <div class="container">
-     <div class="row">
+     <div class="row flex-column-reverse flex-sm-column-reverse flex-md-row">
        <div class="col-lg-6 col-md-6 col-sm-6">
          <div class="about-section-left">
            <div class="image">
@@ -577,20 +448,20 @@
            <div class="overlay-div">
              <img src="public/frontEnd/images/mission.png" alt="">
              <h4>Our Goal</h4>
-             <p>Websolution IT try to identify key point of your business. We never compromised quality &amp; better service.</p>
+             <p>Rangcon try to identify key point of your business. We never compromised quality &amp; better service.</p>
            </div>
          </div>
        </div>
        <div class="col-lg-6 col-md-6 col-sm-6">
          <div class="about-section-right">
            <div class="about-title">
-             <h4>welcome to <span>websolution IT</span></h4>
+             <h4>welcome to <span>Rangcon</span></h4>
            </div>
            <div class="about-highlight">
-             <h1>we are <span>websolution IT</span>, we always commited get best in web solution.</h1>
+             <h1>we are <span>Rangcon</span>, we always commited get best in web Service.</h1>
            </div>
            <div class="about-sort-intro">
-             <p>Websolution Information Technology is fully IT Solution company in Bangladesh. We are focus on Web Design &amp; Development, Web Application Development, Custom Software Development, Graphics Design, Digital Marketing and Professional IT Training. </p>
+             <p>Rangcon is fully Web Service  company in the world. We are focus on Web Design &amp; Development, Web Application Development, Custom Software Development, Graphics Design, Digital Marketing and Professional Web Training. </p>
            </div>
            <div class="about-highlight-key">
              <ul>
@@ -608,44 +479,50 @@
      </div>
    </div>
  </section>
- <!-- about bg end -->
+ <!-- about  section  end -->
+
+
+<!--  ouer hosting service start  -->
  <section class=" package-section section-padding">
    <div class="container">
      <div class="row">
        <div class="col-sm-12">
          <div class="section-title">
-           <h3>Our packages</h3>
-           <p>For more information about our packages, including how to apply and to know more about the view details, please see the individual packages pages</p>
+           <h3>Our Hosting Service </h3>
+           <p>For more information about our Hosting Service, including how to apply and to know more about the view details, please see the individual packages pages</p>
          </div>
        </div>
      </div>
      <div class="row">
-             <div class="col-sm-4">
+      <!-- basic section start-->
+             <div class="col-sm-4 py-3">
          <div class="single-package">
            <div class="image business">
               <a href="">
-                <h4>business basic package</h4>
+                <h4>basic </h4>
                 <p>10000 Tk</p>
               </a>
            </div>
            <div class="title-description">
              <div class="package-list">
                <ul>
-                 <li>.com/.net/.org domain<br></li><li>1 GB storage space</li><li>5 Corporate Email</li><li>5-6 Pages</li><li>Admin Panel</li><li>SEO Friendly</li><li>100% Responsive</li><li>Photo Gallery : Yes<!--...
-               </ul-->
-             </li></ul></div>
+                 <li>.com/.net/.org domain<br></li><li>1 GB storage space</li><li>5 Corporate Email</li><li>5-6 Pages</li><li>Admin Panel</li><li>SEO Friendly</li><li>100% Responsive</li><li>Photo Gallery : Yes </li>
+                
+             </ul></div>
            </div>
            <div class="package-details">
              <a href="#">view details</a>
            </div>
          </div>
        </div>
-              <!-- business query section end -->
-             <div class="col-sm-4">
+              <!-- Basic section end -->
+
+              <!-- Start up start-->
+             <div class="col-sm-4 py-3">
          <div class="single-package">
            <div class="image ecommerce">
               <a href="">
-                <h4>ecommerce basic package</h4>
+                <h4>Start Up</h4>
                 <p>15000 Tk</p>
               </a>
            </div>
@@ -664,12 +541,13 @@
            </div>
          </div>
        </div>
-              <!-- ecommerce section end -->
-              <div class="col-sm-4">
+              <!-- Start up  end -->
+<!-- adbanced start-->
+              <div class="col-sm-4 py-3">
          <div class="single-package">
           <div class="image newspaper">
               <a href="">
-                <h4>Newspaper basic package</h4>
+                <h4>AdVanced</h4>
                 <p>15000 Tk</p>
               </a>
            </div>
@@ -684,7 +562,7 @@
            </div>
          </div>
        </div>
-              <!-- news paper section end -->
+              <!-- adbanced end -->
      </div>
      <!-- row end -->
      <div class="row">
@@ -696,16 +574,20 @@
      </div>
    </div>
  </section>
- <!-- package end -->
+ <!-- our hosting servicve end -->
+
+
+
+<!--FAG start-->>
 <section class="section-padding important-ask">
   <div class="container">
-      <div class="row">
-       <div class="col-sm-12">
-         <div class="section-title">
+      
+      
+         <div class="section-title text-center">
            <h3>frequently asked questions</h3>
            <p>We always ready for your any question. Please feel free ask your valuable question. We will answered your valuable question.</p>
-         </div>
-       </div>
+        
+       
      </div>
     <div class="row">
       <div class="col-sm-6 col-12">
@@ -719,41 +601,41 @@
               <div class="card">
                 <div class="card-header" id="headingOne">
                   <h2 class="mb-0">
-                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      What is Websolution IT &amp; What Do ? <i class="fa fa-plus"></i>
+                    <button class="btn btn-link" type="button" >
+                      What is Rangcon &amp; What Do ? <i class="fa fa-plus"></i>
                     </button>
                   </h2>
                 </div>
 
-                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div  class="collapse show collapse1" >
                   <div class="card-body">
-                    <p>Websolution Information Technology is fully IT Solution company in Bangladesh. We are focus on Web Design &amp; Development, Web Application Development, Custom Software Development, Graphics Design, Digital Marketing and Professional IT Training. </p>
+                    <p>Rangcon is fully Web service company in Bangladesh. We are focus on Web Design &amp; Development, Web Application Development, Custom Software Development, Graphics Design, Digital Marketing. </p>
                   </div>
                 </div>
               </div>
               <div class="card">
                 <div class="card-header" id="headingTwo">
                   <h2 class="mb-0">
-                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <button class="btn btn-link collapsed" type="button" >
                       Your all packages are complete? <i class="fa fa-plus"></i>
                     </button>
                   </h2>
                 </div>
-                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div  class="collapse collapse1" >
                   <div class="card-body">
-                    <p>Yes Sir, Our all packages are compleate. We are fully IT solution Company. Our all package are complate for you. We will provide domain hosting and all kind of solutions. So if you are start working with you we provide a full solution.</p>
+                    <p>Yes Sir, Our all packages are compleate. We are fully Web Service  Company. Our all package are complate for you. We will provide domain hosting and all kind of Service . So if you are start working with you we provide a full Service .</p>
                   </div>
                 </div>
               </div>
               <div class="card">
                 <div class="card-header" id="headingThree">
                   <h2 class="mb-0">
-                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <button class="btn btn-link collapsed" type="button" >
                       What is your office hour? <i class="fa fa-plus"></i>
                     </button>
                   </h2>
                 </div>
-                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div  class="collapse collapse1" >
                   <div class="card-body">
                     <p>Dear sir, Our support team will support your 24/7 hour. But our official time is bellow.</p>
                     <ul>
@@ -771,12 +653,12 @@
               <div class="card">
                 <div class="card-header" id="headingFour">
                   <h2 class="mb-0">
-                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    <button class="btn btn-link collapsed" type="button" >
                       What is need for start work? <i class="fa fa-plus"></i>
                     </button>
                   </h2>
                 </div>
-                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                <div  class="collapse collapse1" >
                   <div class="card-body">
                     <p>Dear sir, Firstly please send us your whole requirments, Our expert team will carefully study your requirments and disscuss with you about project.</p>
                     <p>Secondly, pay 50% advanced and we will start your work and delivery within deadline.</p>
@@ -786,12 +668,12 @@
               <div class="card">
                 <div class="card-header" id="headingFive">
                   <h2 class="mb-0">
-                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    <button class="btn btn-link collapsed" type="button" >
                       What is accpet payment method? <i class="fa fa-plus"></i>
                     </button>
                   </h2>
                 </div>
-                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                <div  class="collapse collapse1" >
                   <div class="card-body">
                    <p>Dear sir, You can payment us via bellow method:</p>
                    <ul>
@@ -800,7 +682,7 @@
                      <li><i class="fa fa-check"></i> Roket</li>
                      <li><i class="fa fa-check"></i> Nagad</li>
                    </ul>
-                   <p>Note : Before payment obiusly contact our official hotline : 01766 - 95 09 86 or mail : info@websolutionit.com and send your recipt information. After confirmation we will send your money recipt.</p>
+                   <p>Note : Before payment obiusly contact our official mail : info@rangcon.com and send your recipt information. After confirmation we will send your money recipt.</p>
                   </div>
                 </div>
               </div>
@@ -811,179 +693,209 @@
   </div>
 </section>
 <!-- faq end -->
+
+<!-- feeback start  -->
 <div class="client-feedback section-padding">
   <div class="container">
-    <div class="row">
-      <div class="col-sm-7">
+    <div class="row  ">
+      <div class="col-sm-7 py-3">
         <h4 class="client-feedback-heading">Our client feedback</h4>
-        <div class="testimonials owl-carousel">
-                        <div class="client-feedback-inner">
-               <div class="content">
-                 <p>
-                  <img src="public/frontEnd/images/left-quote.png" class="left-quote" alt="">Best price and best service, thanks.  What ever i want i got everything in my website, after sell service is also best, they never refuse to solve my problem. I am suggesting to other anyone cank trust this company. Thanks to all. <img src="public/frontEnd/images/right-quote.png" class="right-quote" alt=""></p>
-                 
-               </div>
-               <div class="client-info">
-                <div class="client-image">
-                       <img src="public/uploads/clientfeedback/jewel-saha.png" alt="">
-                 </div>
-                 <div class="client-name-location">
-                   <h4>Jewel Saha</h4>
-                   <p>Sonargaon Jewellers - Dhaka</p>
-                 </div>
-               </div>
+        
+        <div class="swiper mySwiper1 ">
+          <div class="swiper-wrapper ">
+            
+
+            <div class="swiper-slide  ">
+              <div class="client-feedback-inner   ">
+                <div class="content">
+                  <p>
+                   <img src="public/frontEnd/images/left-quote.png" class="left-quote" alt="">Best price and best service, thanks.  What ever i want i got everything in my website, after sell service is also best, they never refuse to solve my problem. I am suggesting to other anyone cank trust this company. Thanks to all. <img src="public/frontEnd/images/right-quote.png" class="right-quote" alt=""></p>
+                  
+                </div>
+                <div class="client-info">
+                 <div class="client-image">
+                        <img src="public/uploads/clientfeedback/jewel-saha.png" alt="">
+                  </div>
+                  <div class="client-name-location">
+                    <h4>Jewel Saha</h4>
+                    <p>Sonargaon Jewellers - Dhaka</p>
+                  </div>
+                </div>
+             </div>
+
             </div>
-                        <div class="client-feedback-inner">
-               <div class="content">
-                 <p>
-                  <img src="public/frontEnd/images/left-quote.png" class="left-quote" alt="">আলহামদুলিল্লাহ আমি একটা ই-কমার্স মার্কেটপ্লেস ওয়েবসাইট বানিয়েছি। অনেক ভালো মানের কাজ করেছেন। <img src="public/frontEnd/images/right-quote.png" class="right-quote" alt=""></p>
-                 
-               </div>
-               <div class="client-info">
-                <div class="client-image">
-                       <img src="public/uploads/clientfeedback/emdadul.jpg" alt="">
-                 </div>
-                 <div class="client-name-location">
-                   <h4>Md Emdadul Haque</h4>
-                   <p>Sodaipati - Rangpur</p>
-                 </div>
-               </div>
+            <div class="swiper-slide">
+              <div class="client-feedback-inner">
+                <div class="content">
+                  <p>
+                   <img src="public/frontEnd/images/left-quote.png" class="left-quote" alt="">আলহামদুলিল্লাহ আমি একটা ই-কমার্স মার্কেটপ্লেস ওয়েবসাইট বানিয়েছি। অনেক ভালো মানের কাজ করেছেন। <img src="public/frontEnd/images/right-quote.png" class="right-quote" alt=""></p>
+                  
+                </div>
+                <div class="client-info">
+                 <div class="client-image">
+                        <img src="public/uploads/clientfeedback/emdadul.jpg" alt="">
+                  </div>
+                  <div class="client-name-location">
+                    <h4>Md Emdadul Haque</h4>
+                    <p>Sodaipati - Rangpur</p>
+                  </div>
+                </div>
+             </div>
             </div>
-                        <div class="client-feedback-inner">
-               <div class="content">
-                 <p>
-                  <img src="public/frontEnd/images/left-quote.png" class="left-quote" alt="">আলহামদুলিল্লাহ বেস্ট সার্ভিস পেয়েছি,  সম্পূর্ণ আমার Requirement অনুযায়ী অল্প সময়ের মধ্যে তারা আমার ওয়েবসাইট হ্যান্ড ওভার দিয়েছে , ধন্যবাদ Websolution  IT- WSIT কে, এবং সম্পূর্ণ প্রক্রিয়ায় যারা যারা ছিলেন সবাইকে। <img src="public/frontEnd/images/right-quote.png" class="right-quote" alt=""></p>
-                 
-               </div>
-               <div class="client-info">
-                <div class="client-image">
-                       <img src="public/uploads/clientfeedback/kamruzzaman.jpg" alt="">
-                 </div>
-                 <div class="client-name-location">
-                   <h4>Kamruzzaman Bhuiyan</h4>
-                   <p>Easymart24 - Dhaka</p>
-                 </div>
-               </div>
+            <div class="swiper-slide">
+              <div class="client-feedback-inner">
+                <div class="content">
+                  <p>
+                   <img src="public/frontEnd/images/left-quote.png" class="left-quote" alt="">আলহামদুলিল্লাহ বেস্ট সার্ভিস পেয়েছি,  সম্পূর্ণ আমার Requirement অনুযায়ী অল্প সময়ের মধ্যে তারা আমার ওয়েবসাইট হ্যান্ড ওভার দিয়েছে , ধন্যবাদ Websolution  IT- WSIT কে, এবং সম্পূর্ণ প্রক্রিয়ায় যারা যারা ছিলেন সবাইকে। <img src="public/frontEnd/images/right-quote.png" class="right-quote" alt=""></p>
+                  
+                </div>
+                <div class="client-info">
+                 <div class="client-image">
+                        <img src="public/uploads/clientfeedback/kamruzzaman.jpg" alt="">
+                  </div>
+                  <div class="client-name-location">
+                    <h4>Kamruzzaman Bhuiyan</h4>
+                    <p>Easymart24 - Dhaka</p>
+                  </div>
+                </div>
+             </div>
+
+
             </div>
-                        <div class="client-feedback-inner">
-               <div class="content">
-                 <p>
-                  <img src="public/frontEnd/images/left-quote.png" class="left-quote" alt="">ami 2 ta website create korci onader theke..best service forever....recommended everyone... <img src="public/frontEnd/images/right-quote.png" class="right-quote" alt=""></p>
-                 
-               </div>
-               <div class="client-info">
-                <div class="client-image">
-                       <img src="public/uploads/clientfeedback/imran.jpg" alt="">
-                 </div>
-                 <div class="client-name-location">
-                   <h4>Mohammad Bin Imran</h4>
-                   <p>Priyomach - Dhaka</p>
-                 </div>
-               </div>
+            <div class="swiper-slide">
+              <div class="client-feedback-inner">
+                <div class="content">
+                  <p>
+                   <img src="public/frontEnd/images/left-quote.png" class="left-quote" alt="">ami 2 ta website create korci onader theke..best service forever....recommended everyone... <img src="public/frontEnd/images/right-quote.png" class="right-quote" alt=""></p>
+                  
+                </div>
+                <div class="client-info">
+                 <div class="client-image">
+                        <img src="public/uploads/clientfeedback/imran.jpg" alt="">
+                  </div>
+                  <div class="client-name-location">
+                    <h4>Mohammad Bin Imran</h4>
+                    <p>Priyomach - Dhaka</p>
+                  </div>
+                </div>
+             </div>
             </div>
-                        <div class="client-feedback-inner">
-               <div class="content">
-                 <p>
-                  <img src="public/frontEnd/images/left-quote.png" class="left-quote" alt="">It's an excellent Organisation for websolution 
-we have been working since 2014 and I found excellent support from them 
-Best of Luck <img src="public/frontEnd/images/right-quote.png" class="right-quote" alt=""></p>
-                 
-               </div>
-               <div class="client-info">
-                <div class="client-image">
-                       <img src="public/uploads/clientfeedback/najmul-hasan.jpg" alt="">
-                 </div>
-                 <div class="client-name-location">
-                   <h4>Md Najmul Hasan</h4>
-                   <p>Dhaka</p>
-                 </div>
-               </div>
+            <div class="swiper-slide">
+              <div class="client-feedback-inner">
+                <div class="content">
+                  <p>
+                   <img src="public/frontEnd/images/left-quote.png" class="left-quote" alt="">It's an excellent Organisation for websolution 
+ we have been working since 2014 and I found excellent support from them 
+ Best of Luck <img src="public/frontEnd/images/right-quote.png" class="right-quote" alt=""></p>
+                  
+                </div>
+                <div class="client-info">
+                 <div class="client-image">
+                        <img src="public/uploads/clientfeedback/najmul-hasan.jpg" alt="">
+                  </div>
+                  <div class="client-name-location">
+                    <h4>Md Najmul Hasan</h4>
+                    <p>Dhaka</p>
+                  </div>
+                </div>
+             </div>
+
+
             </div>
-                        <div class="client-feedback-inner">
-               <div class="content">
-                 <p>
-                  <img src="public/frontEnd/images/left-quote.png" class="left-quote" alt="">They are very dedicated and friendly. Also experience in their working field. <img src="public/frontEnd/images/right-quote.png" class="right-quote" alt=""></p>
-                 
-               </div>
-               <div class="client-info">
-                <div class="client-image">
-                       <img src="public/uploads/clientfeedback/refat-al-asad.jpg" alt="">
-                 </div>
-                 <div class="client-name-location">
-                   <h4>Refat Al Asad</h4>
-                   <p>Dinajpur</p>
-                 </div>
-               </div>
+            <div class="swiper-slide">
+              <div class="client-feedback-inner">
+                <div class="content">
+                  <p>
+                   <img src="public/frontEnd/images/left-quote.png" class="left-quote" alt="">They are very dedicated and friendly. Also experience in their working field. <img src="public/frontEnd/images/right-quote.png" class="right-quote" alt=""></p>
+                  
+                </div>
+                <div class="client-info">
+                 <div class="client-image">
+                        <img src="public/uploads/clientfeedback/refat-al-asad.jpg" alt="">
+                  </div>
+                  <div class="client-name-location">
+                    <h4>Refat Al Asad</h4>
+                    <p>Dinajpur</p>
+                  </div>
+                </div>
+             </div>
+             </div>
+            <div class="swiper-slide">
+              
+              <div class="client-feedback-inner">
+                <div class="content">
+                  <p>
+                   <img src="public/frontEnd/images/left-quote.png" class="left-quote" alt="">Websolution IT কাজের কোয়ালিটি  খুবেই অসাধারণ , বিশেষ করে যখনেই তাদের মেসেজ বা  কল করেছি সাথে সাথেই উত্তর দিয়েছেন , কাজ হ্যান্ডওভার করার পরেও তাদের  সার্ভিস দিয়েছেন , তাদের জন্য অনেক দোয়া ও শুভ কামনা রইলো <img src="public/frontEnd/images/right-quote.png" class="right-quote" alt=""></p>
+                  
+                </div>
+                <div class="client-info">
+                 <div class="client-image">
+                        <img src="public/uploads/clientfeedback/sparkle.png" alt="">
+                  </div>
+                  <div class="client-name-location">
+                    <h4>Sparkle Fashion</h4>
+                    <p>Gulshan,Dhaka</p>
+                  </div>
+                </div>
+             </div>
+
+
             </div>
-                        <div class="client-feedback-inner">
-               <div class="content">
-                 <p>
-                  <img src="public/frontEnd/images/left-quote.png" class="left-quote" alt="">Websolution IT কাজের কোয়ালিটি  খুবেই অসাধারণ , বিশেষ করে যখনেই তাদের মেসেজ বা  কল করেছি সাথে সাথেই উত্তর দিয়েছেন , কাজ হ্যান্ডওভার করার পরেও তাদের  সার্ভিস দিয়েছেন , তাদের জন্য অনেক দোয়া ও শুভ কামনা রইলো <img src="public/frontEnd/images/right-quote.png" class="right-quote" alt=""></p>
-                 
-               </div>
-               <div class="client-info">
-                <div class="client-image">
-                       <img src="public/uploads/clientfeedback/sparkle.png" alt="">
-                 </div>
-                 <div class="client-name-location">
-                   <h4>Sparkle Fashion</h4>
-                   <p>Gulshan,Dhaka</p>
-                 </div>
-               </div>
+            <div class="swiper-slide">
+              <div class="client-feedback-inner">
+                <div class="content">
+                  <p>
+                   <img src="public/frontEnd/images/left-quote.png" class="left-quote" alt="">চোখ বন্ধ করে কাজ করিয়ে নিতে পারেন।
+ আমি websolution এর মাধ্যমে আমার প্রজেক্ট করিয়েছি। তারা খুব আন্তরিক। <img src="public/frontEnd/images/right-quote.png" class="right-quote" alt=""></p>
+                  
+                </div>
+                <div class="client-info">
+                 <div class="client-image">
+                        <img src="public/uploads/clientfeedback/tanveer.png" alt="">
+                  </div>
+                  <div class="client-name-location">
+                    <h4>Md. Tanveer Ahammed</h4>
+                    <p>Brahmanbaria</p>
+                  </div>
+                </div>
+             </div>
             </div>
-                        <div class="client-feedback-inner">
-               <div class="content">
-                 <p>
-                  <img src="public/frontEnd/images/left-quote.png" class="left-quote" alt="">চোখ বন্ধ করে কাজ করিয়ে নিতে পারেন।
-আমি websolution এর মাধ্যমে আমার প্রজেক্ট করিয়েছি। তারা খুব আন্তরিক। <img src="public/frontEnd/images/right-quote.png" class="right-quote" alt=""></p>
-                 
-               </div>
-               <div class="client-info">
-                <div class="client-image">
-                       <img src="public/uploads/clientfeedback/tanveer.png" alt="">
-                 </div>
-                 <div class="client-name-location">
-                   <h4>Md. Tanveer Ahammed</h4>
-                   <p>Brahmanbaria</p>
-                 </div>
-               </div>
+            <div class="swiper-slide">
+              <div class="client-feedback-inner">
+                <div class="content">
+                  <p>
+                   <img src="public/frontEnd/images/left-quote.png" class="left-quote" alt="">Thanks dada ar ki bolbo amar vasha nai amar kaj ami ja chachi sei vabe kore dichen thanks dada <img src="public/frontEnd/images/right-quote.png" class="right-quote" alt=""></p>
+                  
+                </div>
+                <div class="client-info">
+                 <div class="client-image">
+                        <img src="public/uploads/clientfeedback/riday.png" alt="">
+                  </div>
+                  <div class="client-name-location">
+                    <h4>choreographer ridoy</h4>
+                    <p>Savar,Dhaka</p>
+                  </div>
+                </div>
+             </div>
+
             </div>
-                        <div class="client-feedback-inner">
-               <div class="content">
-                 <p>
-                  <img src="public/frontEnd/images/left-quote.png" class="left-quote" alt="">Thanks dada ar ki bolbo amar vasha nai amar kaj ami ja chachi sei vabe kore dichen thanks dada <img src="public/frontEnd/images/right-quote.png" class="right-quote" alt=""></p>
-                 
-               </div>
-               <div class="client-info">
-                <div class="client-image">
-                       <img src="public/uploads/clientfeedback/riday.png" alt="">
-                 </div>
-                 <div class="client-name-location">
-                   <h4>choreographer ridoy</h4>
-                   <p>Savar,Dhaka</p>
-                 </div>
-               </div>
-            </div>
-                        <div class="client-feedback-inner">
-               <div class="content">
-                 <p>
-                  <img src="public/frontEnd/images/left-quote.png" class="left-quote" alt="">আমি উনাদের কাজে মুগ্ধ। দিনাজপুর শহর থেকেও যে এতো ভালো কাজ করা যায় তা উনাদের কাছে কাজ না করলে বুঝতে পারতামনা। উনাদের প্রতিষ্ঠান আরো সামনে এগিয়ে যাক।এই দোয়াই সব সময়। <img src="public/frontEnd/images/right-quote.png" class="right-quote" alt=""></p>
-                 
-               </div>
-               <div class="client-info">
-                <div class="client-image">
-                       <img src="public/uploads/clientfeedback/mahabub1.png" alt="">
-                 </div>
-                 <div class="client-name-location">
-                   <h4>Md. Mahabubur Rahman</h4>
-                   <p>Mohammadpur, Dhaka,</p>
-                 </div>
-               </div>
-            </div>
-                      </div>
+          </div>
+         
+        </div>
+
+
+
+      
 
       </div>
-      <div class="col-sm-5">
+
+
+
+
+
+
+
+      <div class="col-sm-5 py-3">
         <div class="contact-form">
           <h4>Send a quatation</h4>
           <form action="">
@@ -1016,201 +928,173 @@ Best of Luck <img src="public/frontEnd/images/right-quote.png" class="right-quot
     </div>
   </div>
 </div>
+
 <!-- feeback end -->
-<section class="client-bg section-padding">
+<!-- Client section start-->
+<section class="container-fluid  client-bg section-padding">
   <div class="container">
-    <div class="row">
-    <div class="col-sm-12">
-         <div class="section-title">
-           <h3>Our Valuable Client</h3>
+   
+    <div class="section-title"> 
+
+      <h3 class="text-center  py-3">Our Valuable Client</h3>
+    </div>
            
-         </div>
-       </div>
-     </div>
+         
+     
      <div class="row">
-       <div class="col-sm-12">
-         <div class="logo-slider owl-carousel">
-                      <div class="logo-item">
-             <a href="#">
-               <img src="public/uploads/client/inbox-academy.png" alt="inbox-academy &amp; websolution-it">
-             </a>
-           </div>
-                       <div class="logo-item">
-             <a href="#">
-               <img src="public/uploads/client/thetechradar.jpg" alt="the-techrader &amp; websolution-it">
-             </a>
-           </div>
-                       <div class="logo-item">
-             <a href="#">
-               <img src="public/uploads/client/setco-bd.png" alt="setco-bd  &amp; websolution-it">
-             </a>
-           </div>
-                       <div class="logo-item">
-             <a href="#">
-               <img src="public/uploads/client/1704357286-1111.webp" alt="royal-hotel  &amp; websolution-it">
-             </a>
-           </div>
-                       <div class="logo-item">
-             <a href="#">
-               <img src="public/uploads/client/pest-buster-canada.png" alt="pest-buster-canada &amp; websolution-it">
-             </a>
-           </div>
-                       <div class="logo-item">
-             <a href="#">
-               <img src="public/uploads/client/hill-fill.png" alt="hillfil-&amp; websolution-it">
-             </a>
-           </div>
-                       <div class="logo-item">
-             <a href="#">
-               <img src="public/uploads/client/gmy-71.webp" alt="gmy71 &amp; websolution-it">
-             </a>
-           </div>
-                       <div class="logo-item">
-             <a href="#">
-               <img src="public/uploads/client/Untitled-2.png" alt="richman - websolution-it">
-             </a>
-           </div>
-                       <div class="logo-item">
-             <a href="#">
-               <img src="public/uploads/client/jerseybari-logo.png" alt="jersey-bari &amp; websolution-it">
-             </a>
-           </div>
-                       <div class="logo-item">
-             <a href="#">
-               <img src="public/uploads/client/SFOSL%20Final-02.png" alt="smartfosl &amp; websolution-it">
-             </a>
-           </div>
-                       <div class="logo-item">
-             <a href="#">
-               <img src="public/uploads/client/yaqoot-logo.png" alt="yaqoot-construction &amp; websolution-it">
-             </a>
-           </div>
-                       <div class="logo-item">
-             <a href="#">
-               <img src="public/uploads/client/nasir-ironmart.png" alt="nasiriron-mart&amp; websolution it">
-             </a>
-           </div>
-                       <div class="logo-item">
-             <a href="#">
-               <img src="public/uploads/client/logo-esslbd.png" alt="esslbe &amp; websolution-it">
-             </a>
-           </div>
-                       <div class="logo-item">
-             <a href="#">
-               <img src="public/uploads/client/digantoexpress.png" alt="diganto-express &amp; websolution-it">
-             </a>
-           </div>
-                       <div class="logo-item">
-             <a href="#">
-               <img src="public/uploads/client/logo.png" alt="diganto-trading &amp; websolution it">
-             </a>
-           </div>
-                       <div class="logo-item">
-             <a href="#">
-               <img src="public/uploads/client/dti%20logo-02-01.png" alt="decent-trade &amp; websolution it">
-             </a>
-           </div>
-                       <div class="logo-item">
-             <a href="#">
-               <img src="public/uploads/client/bic-logo.png" alt="bari-international-consultancy &amp; websolution it">
-             </a>
-           </div>
-                       <div class="logo-item">
-             <a href="#">
-               <img src="public/uploads/client/logo-2.png" alt="autotech &amp; websolution IT">
-             </a>
-           </div>
-                       <div class="logo-item">
-             <a href="#">
-               <img src="public/uploads/client/360-x-140.png" alt="angina-websolutionit">
-             </a>
-           </div>
-                       <div class="logo-item">
-             <a href="#">
-               <img src="public/uploads/client/1710916850-soft-pink-feminine-haircut-beauty-salon-logo-e1706443638109-%281%29.webp" alt="Importjwelarry">
-             </a>
-           </div>
-                       <div class="logo-item">
-             <a href="#">
-               <img src="public/uploads/client/1710768592-untitled-%28500-x-220-px%29-%282%29.webp" alt="Corsetbd">
-             </a>
-           </div>
-                       <div class="logo-item">
-             <a href="#">
-               <img src="public/uploads/client/ure.PNG" alt="Hibroz">
-             </a>
-           </div>
-                       <div class="logo-item">
-             <a href="#">
-               <img src="public/uploads/client/1686584268-whatsapp_image_2023-05-25_-_copy__2_-removebg-preview.webp" alt="Sodai.com.bd">
-             </a>
-           </div>
-                       <div class="logo-item">
-             <a href="#">
-               <img src="public/uploads/client/%E0%A6%A8%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AF%E0%A6%BC%E0%A7%8B%E0%A6%9C%E0%A6%A8%20%281%29.png" alt="Nittoproyojon">
-             </a>
-           </div>
-                       <div class="logo-item">
-             <a href="#">
-               <img src="public/uploads/client/1704343569-sobuj-telecom.webp" alt="SabujTelecom">
-             </a>
-           </div>
-                       <div class="logo-item">
-             <a href="#">
-               <img src="public/uploads/client/1706012131-sl.webp" alt="SL Electronics">
-             </a>
-           </div>
-                       <div class="logo-item">
-             <a href="#">
-               <img src="public/uploads/client/1703756589-honey-littlelogo.webp" alt="Honey Little">
-             </a>
-           </div>
-                       <div class="logo-item">
-             <a href="#">
-               <img src="public/uploads/client/1702875653-logo-01.webp" alt="Mastech">
-             </a>
-           </div>
-                       <div class="logo-item">
-             <a href="#">
-               <img src="public/uploads/client/1704797813-png111.webp" alt="GYM -71">
-             </a>
-           </div>
-                       <div class="logo-item">
-             <a href="#">
-               <img src="public/uploads/client/1705902232-whatsapp_image_2024-01-22_at_1.21.44_am__3_-removebg-preview.webp" alt="Nababali">
-             </a>
-           </div>
-                       <div class="logo-item">
-             <a href="#">
-               <img src="public/uploads/client/1700974809-logo.webp" alt="Go Mobile BD">
-             </a>
-           </div>
-                       <div class="logo-item">
-             <a href="#">
-               <img src="public/uploads/client/1708947956-222222222-removebg-preview.webp" alt="Niceitem's">
-             </a>
-           </div>
-                       <div class="logo-item">
-             <a href="#">
-               <img src="public/uploads/client/1707410320-tisiy-logo.webp" alt="Tisiy">
-             </a>
-           </div>
-                       <div class="logo-item">
-             <a href="#">
-               <img src="public/uploads/client/plantsbd.png" alt="Websolution It Client Plantsbd">
-             </a>
-           </div>
-                       <div class="logo-item">
-             <a href="#">
-               <img src="public/uploads/client/nexzen.png" alt="Websolution It Client Nexzen">
-             </a>
-           </div>
-                     </div>
-       </div>
+       
+      <div class="swiper mySwiper2">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+
+            <div class="logo-item">
+              <a href="#">
+                <img src="public/uploads/client/inbox-academy.png" alt="inbox-academy &amp; websolution-it">
+              </a>
+            </div>
+
+          </div>
+          <div class="swiper-slide">
+            <div class="logo-item">
+              <a href="#">
+                <img src="public/uploads/client/thetechradar.jpg" alt="the-techrader &amp; websolution-it">
+              </a>
+            </div>
+
+          </div>
+          <div class="swiper-slide">
+            
+            <div class="logo-item">
+              <a href="#">
+                <img src="public/uploads/client/setco-bd.png" alt="setco-bd  &amp; websolution-it">
+              </a>
+            </div>
+            
+
+
+          </div>
+          <div class="swiper-slide">
+            
+            <div class="logo-item">
+              <a href="#">
+                <img src="public/uploads/client/1704357286-1111.webp" alt="royal-hotel  &amp; websolution-it">
+              </a>
+            </div>
+
+
+          </div>
+          <div class="swiper-slide">
+            
+            <div class="logo-item">
+              <a href="#">
+                <img src="public/uploads/client/pest-buster-canada.png" alt="pest-buster-canada &amp; websolution-it">
+              </a>
+            </div>
+
+
+          </div>
+          <div class="swiper-slide">
+            <div class="logo-item">
+              <a href="#">
+                <img src="public/uploads/client/hill-fill.png" alt="hillfil-&amp; websolution-it">
+              </a>
+            </div>
+          
+
+
+          </div>
+          <div class="swiper-slide">
+            <div class="logo-item">
+              <a href="#">
+                <img src="public/uploads/client/gmy-71.webp" alt="gmy71 &amp; websolution-it">
+              </a>
+            </div>
+           
+
+
+          </div>
+          <div class="swiper-slide">
+            <div class="logo-item">
+              <a href="#">
+                <img src="public/uploads/client/Untitled-2.png" alt="richman - websolution-it">
+              </a>
+            </div>
+
+          </div>
+          <div class="swiper-slide">
+            <div class="logo-item">
+              <a href="#">
+                <img src="public/uploads/client/jerseybari-logo.png" alt="jersey-bari &amp; websolution-it">
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="logo-item">
+              <a href="#">
+                <img src="public/uploads/client/SFOSL%20Final-02.png" alt="smartfosl &amp; websolution-it">
+              </a>
+            </div>
+
+          </div>
+          <div class="swiper-slide">
+            <div class="logo-item">
+              <a href="#">
+                <img src="public/uploads/client/yaqoot-logo.png" alt="yaqoot-construction &amp; websolution-it">
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="logo-item">
+              <a href="#">
+                <img src="public/uploads/client/nasir-ironmart.png" alt="nasiriron-mart&amp; websolution it">
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="logo-item">
+              <a href="#">
+                <img src="public/uploads/client/logo-esslbd.png" alt="esslbe &amp; websolution-it">
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="logo-item">
+              <a href="#">
+                <img src="public/uploads/client/digantoexpress.png" alt="diganto-express &amp; websolution-it">
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="logo-item">
+              <a href="#">
+                <img src="public/uploads/client/logo.png" alt="diganto-trading &amp; websolution it">
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="logo-item">
+              <a href="#">
+                <img src="public/uploads/client/dti%20logo-02-01.png" alt="decent-trade &amp; websolution it">
+              </a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+                     
+                       
+       
+        
+        
+         
      </div>
 
   </div>
-</section><footer class="footer-section">
+</section>
+<!-- client section end -->
+
+<!-- fonter section start -->
+<footer class="footer-section">
   <div class="footer-top">
     <div class="container">
       <div class="row">
@@ -1220,23 +1104,19 @@ Best of Luck <img src="public/frontEnd/images/right-quote.png" class="right-quot
              Corporate Office
             </h3>
             <div class="footer-address">
-              <p>Mohila College Mor, Nimnagar Balubari, Dinajpur-5200, Bangladesh.</p>
+              <p>Dhaka Bangladesh.</p>
               <ul>
+                
                 <li>
-                    <a href="tel:+8801766950986"><i class="fa fa-phone"></i>01766950986</a>
+                    <i class="fa fa-envelope"></i>info@rangcon.com
                 </li>
-                <li>
-                    <i class="fa fa-envelope"></i>info@websolutionit.com
-                </li>
-                <li>
-                    <i class="fa fa-whatsapp"></i>+8801925-883214
-                </li>
+               
                 <a href="#" class="getin-btn">Get In Touch</a>
               </ul>
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-6">
+        <div class="col-lg-2 col-md-3 col-sm-6">
           <div class="footer-widget">
             <h3 class="footer-title">
              Quick Link
@@ -1252,18 +1132,12 @@ Best of Luck <img src="public/frontEnd/images/right-quote.png" class="right-quot
                 <li>
                   <a href="#">Services</a>
                 </li>
-                <li>
-                  <a href="#">Packages</a>
-                </li>
-                <li>
-                  <a href="#">Our Works</a>
-                </li>
+               
+               
                 <li>
                   <a href="#">Blog</a>
                 </li>
-                <li>
-                  <a href="#">Our Clients</a>
-                </li>
+              
                 <li>
                    <a href="#">Faq</a>
                 </li>
@@ -1271,25 +1145,18 @@ Best of Luck <img src="public/frontEnd/images/right-quote.png" class="right-quot
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-6">
+        <div class="col-lg-4 col-md-3 col-sm-6">
           <div class="footer-widget">
             <h3 class="footer-title">
-             Our Packages
+             Our Hosting Services with domain
             </h3>
             <div class="footer-link">
               <ul>
-                                   <li><a href="#">Business Website</a></li>
-                                    <li><a href="#">Ecommerce Website</a></li>
-                                    <li><a href="#">Newspaper</a></li>
-                                    <li><a href="#">Ads Classified</a></li>
-                                    <li><a href="#">Courier Management</a></li>
-                                    <li><a href="#">Post Of Sale</a></li>
-                                    <li>
-                    <a href="#">About us</a>
-                  </li>
-                  <li>
-                    <a href="#">Contact Us</a>
-                  </li>
+                                   <li><a href="#">Sharied Hosting</a></li>
+                                    <li><a href="#">Wordpres Hosting</a></li>
+                                    <li><a href="#">Dedicated Hosting</a></li>
+                              
+                                  
               </ul>
             </div>
           </div>
@@ -1297,22 +1164,16 @@ Best of Luck <img src="public/frontEnd/images/right-quote.png" class="right-quot
         <div class="col-lg-3 col-md-3 col-sm-6">
           <div class="footer-widget">
             <h3 class="footer-title">
-             Our Services
+             Our web Services
             </h3>
             <div class="footer-link">
               <ul>
                                    <li><a href="#">Website Design And Development</a></li>
-                                    <li><a href="#">Ecommerce Solution</a></li>
+                                    <li><a href="#">Complete Web Service </a></li>
                                     <li><a href="#">Web Application Development</a></li>
                                     <li><a href="#">Graphic Design</a></li>
-                                    <li><a href="#">Point Of Sales</a></li>
-                                    <li><a href="#">Professional IT Tranning</a></li>
-                                    <li>
-                    <a href="#">About us</a>
-                  </li>
-                  <li>
-                    <a href="#">Contact Us</a>
-                  </li>
+                                   
+                                    
               </ul>
             </div>
           </div>
@@ -1334,16 +1195,16 @@ Best of Luck <img src="public/frontEnd/images/right-quote.png" class="right-quot
           <div class="footer-social">
             <ul>
               <li>
-                <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
               </li>
               <li>
-                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
               </li>
               <li>
-                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
               </li>
               <li>
-                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
               </li>
             </ul>
           </div>
@@ -1355,53 +1216,33 @@ Best of Luck <img src="public/frontEnd/images/right-quote.png" class="right-quot
 </div>
   </div>
 </footer>
+<!-- foter section end-->
+
+
+
     <!-- ======script js start======= -->
-<script src="public/frontEnd/js/swiper-menu.js"></script>
-  <!-- swipper js -->
+
   
-    <script src="public/frontEnd/js/jquery.ajax.js"></script>
-    <!-- scrollUp js -->
-  <script src="public/frontEnd/js/bootstrap.min.js"></script>
-    <!-- bootstrap js -->
-     <script src="public/frontEnd/js/jquery.sticky.js"></script>
-  <!-- Sticky js -->
-  <script src="public/frontEnd/js/jquery.meanmenu.js"></script>
-  <!-- meanmenu js -->
-    <script src="public/frontEnd/js/owl.carousel.min.js"></script>
-    <!-- bootstrap js -->
-    <script src="public/frontEnd/js/wow.js"></script>
-    <!-- wow js -->
-    <script src="public/frontEnd/js/jquery.scrollUp.js"></script>
-    <!-- scrollUp js -->
+
  
-    <script src="public/frontEnd/js/script.js"></script>
+ 
+    <!-- bootstrap js -->
+
+ 
+   
+ 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="public/frontEnd/js/swiper.js"></script>
+    
+    
+ 
+<!-- swiper js js -->
+
+
+    <script src="public/frontEnd/js/index.js"></script>
     <!-- script js -->
     <!-- ======script js end======= -->
-    <script>
-        $(window).scroll(function() {
-            if ($(this).scrollTop() > 50 ) {
-                $('.scrolltop:hidden').stop(true, true).fadeIn();
-            } else {
-                $('.scrolltop').stop(true, true).fadeOut();
-            }
-        });
-        $(function(){$(".scroll").click(function(){$("html,body").animate({scrollTop:$(".gotop").offset().top},"1000");return false})})
-    </script>
-  <script>
-    $(document).ready(function(){
-        // Add minus icon for collapse element which is open by default
-        $(".collapse.show").each(function(){
-          $(this).prev(".card-header").find(".fa").addClass("fa-minus").removeClass("fa-plus");
-        });
-        
-        // Toggle plus minus icon on show hide of collapse element
-        $(".collapse").on('show.bs.collapse', function(){
-          $(this).prev(".card-header").find(".fa").removeClass("fa-plus").addClass("fa-minus");
-        }).on('hide.bs.collapse', function(){
-          $(this).prev(".card-header").find(".fa").removeClass("fa-minus").addClass("fa-plus");
-        });
-    });
-</script>
+    
 
 
 
